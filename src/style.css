@@ -29,6 +29,10 @@ section {
     box-shadow: 10px 5px 5px black;
 }
 
+#section_modal {
+    display: none;
+}
+
 form , #div_modal{
     position: absolute;
     top:50%;
