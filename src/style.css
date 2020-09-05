@@ -23,9 +23,10 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
-    background-color: #fff;
+    background-color: rgba(255,255,255, 0.5);
     height: 40%;
     width: 80%;
+    box-shadow: 10px 5px 5px black;
 }
 
 form {
@@ -37,4 +38,16 @@ form {
 
 input, button {
     display: block;
+}
+
+div + div {
+    margin: 5% 0%;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:valid {
+    border: 2px solid black;
 }
